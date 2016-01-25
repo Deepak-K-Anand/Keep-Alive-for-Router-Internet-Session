@@ -8,7 +8,7 @@ With the new Wi-Fi router setup at the Dazeworks office, each one of us who will
 ### What is Chrome Packaged App
 [Chrome Packaged App](https://developer.chrome.com/apps/about_apps) lets you to build *desktop based applications* that can run on any machine that has Chrome installed. This means that a Chrome Packaged App can run on PC, Linux and Mac as Chrome runs on all of them! Chrome Packaged Apps can be downloaded from the **Chrome Web Store** and can be added to the Desktop / Taskbar as shortcuts in order to launch them. Pretty much like a Desktop Application, these have a window of their own with options to Maximize and Minimze and doesn't require you to even open your Chrome Browser unlike Extensions which comes to life only after you open your Chrome Browser. Now for the best part - You can develop these with just **HTML/CSS** and **JavaScript**.
 
-### How it works
+### How it Works
 Now behind the hood as mentioned earlier, it is just HTML/CSS and JavaScript that was employed to build the App. We're using a [**WebView Tag**](https://developer.chrome.com/apps/tags/webview) wherein we will load the router's portal or website. WebView Tags are just like the IFRAME Tag in HTML but with more features and functionalities. Users can login and then simply keep the App minimized to maintain the session! At the top, we will also have a text box wherein one can change the URI to the router's portal. This would be helpful if the address to the router's portal / website changes in future.
 
 ### Technologies Used
