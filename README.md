@@ -21,7 +21,7 @@ Now behind the hood as mentioned earlier, it is just HTML/CSS and JavaScript tha
     * Chrome Packaged App
 
 ### Installing the App
-You can install the App from the Chrome Webstore - [[link]]. Also, it can be installed for the "**dazeworks.com**" domain only! This means that you have to login via your Dazeworks Google Account and then install the same from the Chrome Webstore.
+You can install the App from the Chrome Webstore - [[link]]. Also, it can only be installed for the "**dazeworks.com**" domain! This means that you have to login via your Dazeworks Google Account and then install the same from the Chrome Webstore.
 
 ### Contributions / Suggesstions
 I am very certain that organizations might have come across a similar situtation wherein employees need to authenticate via the router's portal and then will have to keep the tab open to maintain the session. Thus you can easily repurpose this App with it's source, brand it to meet your organization's needs and publish the same via Chrome Webstore. Also, feel free to thrown in suggesstions and don't hesitate to fork it and get your's up and running.
