@@ -31,6 +31,7 @@ That being said, let us see how the Chrome Packaged App works! Now behind the ho
 ### Installing the App
 You can install the App from the Chrome Webstore - [[link]]. Also, it can only be installed for the "**dazeworks.com**" domain! This means that you have to login via your Dazeworks Google Account and then install the same from the Chrome Webstore.
 
+> Wait! Where is the link ?!? Well actually I am still evaluating this App myself for atleast a week and if it goes well you'll soon see it on the Chrome Webstore.
 
 ### Contributions / Suggestions
 I am very certain that organizations might have come across a similar situation wherein employees need to authenticate via the router's portal and then will have to keep the tab open to maintain the session. Thus you can easily re-purpose this App with it's source, brand it to meet your organization's needs and publish the same via Chrome Webstore. Also, feel free to thrown in suggestions and don't hesitate to fork it and get your's up and running.
