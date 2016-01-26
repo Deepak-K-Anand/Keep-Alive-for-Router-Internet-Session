@@ -26,7 +26,7 @@ That being said, let us see how the Chrome Packaged App works! Now behind the ho
     * Chrome Packaged App
     
 ### Installing the App(*Dazework's Copy*)
-You can install the App from the Chrome Webstore - [[link]]. Also, it can only be installed for the "dazeworks.com" domain! This means that you have to login via your Dazeworks Google Account and then install the same from the Chrome Webstore.
+You can install the App from the Chrome Webstore - [[link]]. Also, it can only be installed for the "**dazeworks.com**" domain! This means that you have to login via your Dazeworks Google Account and then install the same from the Chrome Webstore.
 
 > Wait! Where is the link ?!? Well actually I am still evaluating this App myself for atleast a week and if it goes well you'll soon see it on the Chrome Webstore.
 
@@ -34,7 +34,7 @@ You can install the App from the Chrome Webstore - [[link]]. Also, it can only b
 I am very certain that organizations might have come across a similar situation wherein employees need to authenticate via the router's portal and then will have to keep the tab open to maintain the session. Thus you can easily re-purpose this App with it's source, brand it to meet your organization's needs and publish the same via Chrome Webstore. Also, feel free to thrown in suggestions and don't hesitate to fork it and get your's up and running.
 
 ### Branding
-The name of the Chrome Packaged App as well as the [`manifest.json`](https://github.com/Deepak-K-Anand/Keep-Alive-for-Router-Internet-Session/blob/master/manifest.json) has been kept as *generic* as possible to easing re-branding. Now in order to configure the labels / content within the App Window, you can use the [`config.js`](https://github.com/Deepak-K-Anand/Keep-Alive-for-Router-Internet-Session/blob/master/js/config.js) file:
+The name of the Chrome Packaged App as well as the [`manifest.json`](https://github.com/Deepak-K-Anand/Keep-Alive-for-Router-Internet-Session/blob/master/manifest.json) has been kept as *generic* as possible to ease the process of re-branding. Now in order to configure the labels / content within the App Window, you can use the [`config.js`](https://github.com/Deepak-K-Anand/Keep-Alive-for-Router-Internet-Session/blob/master/js/config.js) file:
 
 ```javascript
 var config = {
