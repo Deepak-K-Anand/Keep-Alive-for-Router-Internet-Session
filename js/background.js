@@ -8,7 +8,7 @@ chrome.app.runtime.onLaunched.addListener(
                 }
             },
             function(wnd) {
-                wnd.maximize();s
+                wnd.maximize();
             }
         );
     }
