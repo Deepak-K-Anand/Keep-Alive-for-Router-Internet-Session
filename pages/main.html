@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html ng-app="keepAliveDWApp">
+<html ng-app="keepAliveApp">
     <head>
-        <title>Keep Alive for Dazeworks Internet</title>
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         <link rel="stylesheet" type="text/css" href="../css/third-party/bootstrap.min.css">
     </head>
@@ -16,7 +15,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#">
-                        <strong>Keep Alive for Dazeworks Internet</strong>
+                        <strong>Keep Alive for {{ctrl.orgName}} Internet</strong>
                     </a>
                 </div>
 
@@ -24,7 +23,7 @@
                     <p class="navbar-text navbar-right">
                         <small>
                             <em>
-                                Made with <img src="../img/heart.png" /> by Deepak
+                                Made with <img src="../img/heart.png" /> for {{ctrl.orgName}}
                             </em>
                         </small>
                     </p>
@@ -41,7 +40,7 @@
                 <div class="col-md-12">
                     <div class="alert alert-info">
                         With this Desktop App you'll no longer need to have  a tab open 
-                        on your Browser to maintain your <strong>Dazeworks Internet 
+                        on your Browser to maintain your <strong>{{ctrl.orgName}} Internet 
                         Session</strong>. Sign-in via this Desktop App, keep it minimized 
                         and enjoy browsing on your favourite Browser! In case of a 
                         new URL/endpoint, type in the same and hit <strong>Save</strong>. 
@@ -64,6 +63,7 @@
         <script type="text/javascript" src="../js/third-party/jquery-2.2.0.min.js"></script>
         <script type="text/javascript" src="../js/third-party/bootstrap.min.js"></script>
         <script type="text/javascript" src="../js/third-party/angular.min.js"></script>
+        <script type="text/javascript" src="../js/config.js"></script>
         <script type="text/javascript" src="../js/app.js"></script>
     </body>
 </html>

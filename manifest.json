@@ -1,6 +1,6 @@
 {
-  "name": "Keep Alive for DW Internet",
-  "description": "Ensures that you're live on the Dazeworks Internet Session!",
+  "name": "Keep Alive for Router Internet Session",
+  "description": "Ensures that you're live on the Internet Session with Router!",
   "version": "0.1",
   "manifest_version": 2,
   "offline_enabled": false,

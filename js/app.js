@@ -1,9 +1,9 @@
-angular.module( "keepAliveDWApp", [] ).config(
+angular.module( "keepAliveApp", [] ).config(
     function( $sceDelegateProvider ) {
         $sceDelegateProvider.resourceUrlWhitelist(
             [
                 "self",
-                "http://192.168.1.1:8090/**"
+                config.defRouterDomain
             ]
         );
     }
@@ -14,13 +14,16 @@ angular.module( "keepAliveDWApp", [] ).config(
         function( $scope ) {
             var self = this;
 
+            self.orgName  = null;
             self.loginURL = null;
             self.hasSaved = false;
+
+            self.orgName = config.orgName;
 
             self.loadURL = function() {
                 chrome.storage.sync.get(
                     {
-                        loginURL : "http://192.168.1.1:8090/httpclient.html"
+                        loginURL : config.defRouterEP
                     },
                     function( config ) { 
                         self.loginURL = config.loginURL;
