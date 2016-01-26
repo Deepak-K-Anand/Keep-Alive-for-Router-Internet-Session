@@ -7,7 +7,7 @@ chrome.app.runtime.onLaunched.addListener(
                     minWidth: 500
                 }
             },
-            function(wnd) {
+            function( wnd ) {
                 wnd.maximize();
             }
         );
