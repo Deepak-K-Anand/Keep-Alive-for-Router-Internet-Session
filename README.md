@@ -10,7 +10,7 @@ With the new Wi-Fi router setup at the Dazeworks office, each one of us who will
 [**Chrome Packaged App**](https://developer.chrome.com/extensions/apps) lets you to build desktop based applications that can run on any machine that has Chrome installed. This means that a Chrome Packaged App can run on PC, Linux and Mac as Chrome runs on all of them! Chrome Packaged Apps can be downloaded from the Chrome Web Store and can be added to the Desktop / Taskbar as shortcuts in order to launch them. Pretty much like a **Desktop Application**, these have a window of their own with options to maximize and minimize and doesn't require you to even open your Chrome Browser unlike Extensions which comes to life only after you open your Chrome Browser. Now for the best part - You can develop these with just **HTML/CSS** and **JavaScript**.
 
 ### How it Works
-Let me explain how keeping a tab open works:
+Let me explain how keeping a tab open works(in other words how the "Cyberroam" thingie works):
 
 ![How it Works](https://cloud.githubusercontent.com/assets/3683725/12574803/414a0276-c42d-11e5-916f-14592d3971a7.png)
 
